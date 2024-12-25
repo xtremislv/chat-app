@@ -3,7 +3,7 @@ import { useThemeStore } from "../store/useThemeStore";
 import { Send } from "lucide-react";
 
 const PREVIEW_MESSAGES = [
-  { id: 1, content: "heloooo princesss :)", isSent: false },
+  { id: 1, content: "heloooo :)", isSent: false },
   { id: 2, content: "merry Christmass!! 🤗🤗", isSent: true },
 ];
 
@@ -57,7 +57,7 @@ const SettingsPage = () => {
                       J
                     </div>
                     <div>
-                      <h3 className="font-medium text-sm">Princess 🥰🥰💗💗</h3>
+                      <h3 className="font-medium text-sm">Someone</h3>
                       <p className="text-xs text-base-content/70">Online</p>
                     </div>
                   </div>
